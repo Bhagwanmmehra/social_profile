@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href=".favicon-32x32.png">
+
+  <title>Frontend Mentor | Social links profile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <link rel="shortcut icon" href="./assets/images/favicon-32x32.png" type="image/x-icon">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    .dspl-cent {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .main {
+      width: 100%;
+      height: 100vh;
+      background-color: black;
+      color: hsl(0, 0%, 100%);
+      font-family: "Inter", serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    .card {
+      padding: 20px;
+      background-color: hsl(0, 0%, 12%);
+      border-radius: 15px;
+      box-shadow: 1px 1px 2px 4px hsl(0, 0%, 12%);
+
+    }
+
+    .jessy-img>img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin: 15px;
+    }
+
+    .link{
+      margin: 10px;
+    }
+    .link>a {
+      text-align: center;
+      margin: 10px;
+      text-decoration: none;
+      color: hsl(0, 0%, 100%);
+      width: 300px;
+      padding: 10px;
+      background-color: hsl(0, 0%, 20%);
+      border-radius: 10px;
+      font-family: "Inter", serif;
+      font-optical-sizing: auto;
+      font-weight: 600;
+      font-style: normal;
+    }
+
+    .link>a:hover {
+      background-color: hsl(75, 94%, 57%);
+      color: hsl(0, 0%, 8%);
+    }
+
+    .info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .venue {
+      color: hsl(75, 94%, 57%);
+      margin: 10px;
+    }
+
+    .jname {
+      font-size: 25px;
+      text-align: center;
+      color:hsl(0, 0%, 100%);
+    }
+
+    .designation {
+      text-align: center;
+      margin-top: 30px;
+    margin-bottom: 10px;
+    color: hsl(0, 0%, 100%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="main dspl-cent">
+    <div class="card dspl-cent">
+      <div class="jessy-img">
+        <img src="avatar-jessica.jpeg" alt="">
+      </div>
+      <div class="info">
+        <div>
+          <p class="jname">Jessica Randall</p>
+          <p class="venue">London, United Kingdom</p>
+        </div>
+        <p class="designation">"Front-end developer and avid reader."</p>
+      </div>
+      <div class="link dspl-cent">
+        <a href="#">GitHub</a>
+        <a href="#">Frontend Mentor</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Bhagwandas mehra</a>.
+  </div>
+</body>
+
+</html>
